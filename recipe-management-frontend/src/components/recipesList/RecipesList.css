@@ -1,0 +1,88 @@
+.outerListContainer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innerListContainer {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5%;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;    
+}
+
+.listTitleContainer {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.addRecipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    gap: 20px;    
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.searchBar {
+    margin-right: 20px;
+    height: 56px;
+    width: auto;
+    display: inline-block;
+}
+
+.searchTextField {
+    width: 400px;
+    height: 95px !important;
+}
+
+.searchButton {
+    height: 100% !important;
+    width: 100px !important;
+    box-shadow: none !important;
+    background-color: #F15B2B !important;
+}
+
+.addRecipeButton {
+    font-size: .9em;
+    font-weight: 500 !important;
+    color: #fff !important;   
+    height: 50px;
+    background-color: #F15B2B !important;
+
+}
+
+.searchOuterContainer {
+    width: 100%;
+    height: 200px;
+    background-color: #F8F7F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchInnerContainer {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+.headerContainer {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;    
+}    
+
+.overlayBackground {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.7;     
+}
+
+.headerMenuArea {
+    width: 70vw;
+    height: 80px;   
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.headerMenuArea img {
+    margin-left: 20px;
+    width: auto;
+    height: 50px;
+}
+
+.rightMenu {
+    margin-right: 20px;
+    margin-left: auto;  
+    display: flex; 
+}
+
+.logoutButton {
+    left: 25px;
+    background-color: #951A1D !important;
+    color: #fff !important;
+    height: 50px;
+}
+
+.headerContainer {
+    background-color: #F8F7F4;
+}
+

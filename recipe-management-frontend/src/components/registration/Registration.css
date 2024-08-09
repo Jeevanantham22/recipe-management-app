@@ -1,0 +1,11 @@
+.registerButton {
+    margin-bottom: 50px !important;
+    height: 50px !important;
+    border-radius: 25px !important;   
+    background-color: #E00251 !important;
+    font-weight: bold !important;
+}
+
+.registerForm {
+    width: 80%;    
+}

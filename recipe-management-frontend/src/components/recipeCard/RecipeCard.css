@@ -1,0 +1,76 @@
+.cardContainer {
+    width: 30% !important;
+    height: 100% !important;
+    min-width: 320px !important;
+}
+
+.cardImage {
+    position: relative;
+    border-radius: 20px;
+}
+
+/* .categoryName {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 140px;
+    margin: 0;
+    background-color: yellow;
+    padding: 5px 10px;
+} */
+.categoryBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.categoryName {
+    display: inline-block;
+    flex-direction: row; 
+    background-color: yellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.categoryName.breakfast {
+    background-color: #f8c471;
+    color: white;
+}
+
+.categoryName.lunch {
+    background-color: #76d7c4;
+    color: white;
+}
+
+.categoryName.dinner {
+    background-color: #5dade2;
+    color: white;
+}
+
+.categoryName.dessert {
+    background-color: #f1948a;
+    color: white;
+}
+
+.truncate {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    border-radius: 20px !important;
+}
+
+.editDeleteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editButton, .deleteButton {
+    height: 40px;
+}

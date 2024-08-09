@@ -1,0 +1,92 @@
+.viewRecipeContainer {
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.detailsLayoutContainer {
+    width: 60vw;
+    height: auto;
+    margin: 20px 0;
+    display: flex;       
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.detailsContainer {
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;  
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.detailsContainer h1, h6 {
+    margin: 0;
+}
+
+.detailsContainer h6 {
+    margin-bottom: 3px;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: purple;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.detailsContainer ul, ol {
+    line-height: 2em;
+}
+
+.recipeImg {
+    width: 50%;
+    height: auto;
+}
+
+.titleConatiner {
+    display: flex;
+    flex-direction: row;
+}
+
+.editDeleteContainer {
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    height: 50px;
+}
+
+.deleteButton {
+    background-color: rgb(199, 8, 8) !important;    
+}
+
+.backButton {
+    font-size: 1.2em !important;    
+}
+
+.titleCategoryDiv {
+    display: inline-block;
+    /* flex-direction: column;    
+    justify-content: flex-start;   */
+}
+
+.recipeCategory {    
+    display: inline-block;
+    padding: 5px 10px;       
+}
+
+.titleCategoryDiv p {
+    margin: 5px 0;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
