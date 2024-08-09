@@ -11,7 +11,7 @@ const bodyParser = require('body-parser');
 
 require('./app/db');
 
-const port = 2000;
+const port = process.env.BACKEND_PORT;
 const app = express();
 
 app.use(helmet());

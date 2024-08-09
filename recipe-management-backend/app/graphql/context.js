@@ -4,7 +4,7 @@ const SECRET_KEY = process.env.SECRET_KEY;
 
 const verifyToken = (token) => {
   try {
-    return jwt.verify(token, process.env.SECRET_KEY);
+    return jwt.verify(token, SECRET_KEY);
   } catch {
     return null;
   }

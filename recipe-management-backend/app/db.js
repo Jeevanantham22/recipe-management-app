@@ -2,18 +2,18 @@
 const { ApolloServer, gql } = require('apollo-server');
 const mongoose = require('mongoose');
 
-const dbURL = "mongodb://localhost:27017/recipe";
+const MONGO_URI = process.env.MONGO_URI;
 
-if (!dbURL) {
+if (!MONGO_URI) {
   console.error('DB URL empty');
   process.exit(1);
 }
 
 async function connectToDB() {
-  console.log(`Connecting to Database ${dbURL}`);
+  console.log(`Connecting to Database ${MONGO_URI}`);
 
   try {
-    await mongoose.connect(dbURL);
+    await mongoose.connect(MONGO_URI);
     console.log('Successfully Connected To DB');
   } catch (error) {
     console.error('Database Connection Failed');
