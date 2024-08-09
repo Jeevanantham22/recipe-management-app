@@ -11,11 +11,11 @@ Search for recipes by name or ingredients
 User authentication (login, registration)
 
 # Technologies Used
-# Frontend: React, Redux, HTML, CSS, JavaScript
-# Backend: Node.js, Express, MongoDB, Mongoose
-# Authentication: JWT (JSON Web Tokens)
-# Styling: Material UI
-# API Requests: Graphql
+Frontend: React, Redux, HTML, CSS, JavaScript
+Backend: Node.js, Express, MongoDB, Mongoose
+Authentication: JWT (JSON Web Tokens)
+Styling: Material UI
+API Requests: Graphql
 
 # Prerequisites
 Before running the application, ensure you have the following installed:
