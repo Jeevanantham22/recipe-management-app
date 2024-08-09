@@ -1,22 +1,23 @@
-Recipe Management Application
-Overview
+# Recipe Management Application
+# Overview
 The Recipe Management Application is a web-based platform that allows users to browse, create, edit, and manage recipes. The application is split into two parts: the frontend (user interface) and the backend (server and database).
 
-Features
+# Features
 Browse recipes
 Create new recipes
 Edit existing recipes
 Delete recipes
 Search for recipes by name or ingredients
 User authentication (login, registration)
-Manage user profiles
-Technologies Used
+
+# Technologies Used
 Frontend: React, Redux, HTML, CSS, JavaScript
 Backend: Node.js, Express, MongoDB, Mongoose
 Authentication: JWT (JSON Web Tokens)
 Styling: Tailwind CSS
 API Requests: Axios
-Prerequisites
+
+# Prerequisites
 Before running the application, ensure you have the following installed:
 
 Node.js (v14.x or higher)
